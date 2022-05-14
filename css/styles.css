@@ -1,0 +1,227 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: bold;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* Sections */
+.color-section {
+  background-color: #ff4c68;
+  color: white;
+}
+
+.nonColor-section {
+  background-color: white;
+}
+
+/* starting title section 
+    - contains navbar + title */
+#title {
+  /* background-color: #ff4c68;
+  color: white; */
+  text-align: left;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+/* Navigation Bar */
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.navbar-item {
+  padding: 0px 18px;
+  font-size: 1.2em;
+  font-weight: 100;
+}
+
+/* title page h1-tag heading */
+.titlePage-bigHeading {
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+/* Download Buttons */
+.download-button {
+  margin: 5% 3% 5% 0%;
+}
+
+/* Title Image */
+.title-img {
+  width: 60%;
+  transform: rotate(25deg);
+  /* added */
+  margin-top: -2rem;
+  right: 25%;
+  /* or margin-left: 3rem; could be used for above */
+
+  /* added-try */
+  position: absolute;
+}
+
+.title-img-container {
+  position: relative;
+}
+
+/* Features Section */
+#features {
+  padding: 7% 15%;
+  /* background-color: white; */
+  position: relative;
+}
+
+.feature-box {
+  /* text-align: center; */
+  padding: 5%;
+}
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+/* Testimonial Section */
+
+#testimonials {
+  /*text-align: center;*/
+  background-color: #ef8172;
+  /* color: white; */
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press {
+  background-color: #ef8172;
+  /* text-align: center; */
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 0px 20px 40px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+/* Pricing Section */
+
+#pricing {
+  padding: 7% 8%;
+  /* text-align: center; */
+}
+
+.price-headingText {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.pricing-column {
+  padding: 3% 2%;
+}
+
+/* additionalCode to keep card heights equal */
+.card {
+  height: 100%;
+}
+
+/* media queries so title part of website is responsive
+in all viewport sizes */
+@media (min-width: 1018px) and (max-width: 1155px) {
+  .title-img {
+    position: static;
+    margin-top: 0.5rem;
+    margin-left: 30%;
+    width: 70%;
+  }
+}
+
+@media (min-width: 991px) and (max-width: 1018px) {
+  .title-img {
+    position: static;
+    margin-top: 0.5rem;
+    margin-left: 12%;
+    width: 85%;
+  }
+}
+
+@media (max-width: 991px) {
+  .title-img {
+    position: static;
+    transform: rotate(0);
+    margin-top: 0;
+  }
+
+  #title {
+    text-align: center;
+  }
+}
+
+/* CTA Section */
+#cta {
+  padding: 6% 15% 3.5%;
+  /* text-align: center; */
+  /* background-color: #ff4c68;
+  color: white; */
+}
+
+.cta-heading {
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+/* Footer Section */
+#footer {
+  padding: 4% 0%;
+  /* text-align: center; */
+}
+
+.social-icon {
+  padding: 1% 0.5% 1.5%;
+  color: #ef8172;
+}
+.social-icon:hover {
+  color: #ff4c68;
+}
+
+@media (max-width: 630px) {
+  .social-icon {
+    padding: 5% 2%;
+  }
+}
